@@ -80,9 +80,9 @@ streamlit run app.py
 ---
 
 ## Requirements
-```
+
 Key libraries:
-```
+
 ```
 streamlit
 ```
@@ -110,7 +110,7 @@ fpdf2
 ```
 python-dotenv
 ```
-See requirements.txt for exact pinned versions.
+See **requirements.txt** for exact pinned versions.
 
 ---
 
