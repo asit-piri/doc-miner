@@ -65,17 +65,17 @@ streamlit run app.py
 
 - Ask questions in the chat box → chatbot retrieves relevant chunks and answers.
 
-- Use sidebar options:
+Use the sidebar options:
 
--- Clear documents from DB
+- Clear documents from DB
 
--- Save session
+- Save session
 
--- Send test email
+- Send test email
 
--- Process S3 documents
+- Process S3 documents
 
--- Create support ticket
+- Create support ticket
 
 ---
 
