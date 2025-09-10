@@ -23,5 +23,6 @@ EMAIL_CONFIG = {
     'smtp_port': int(os.getenv("EMAIL_SMTP_PORT", "587")),
     'sender_email': os.getenv("EMAIL_SENDER", "your_email@gmail.com"),
     'sender_password': os.getenv("EMAIL_PASSWORD", "your_app_password"),
-    'receiver_email': os.getenv("EMAIL_RECEIVER", "sudhanshu@euron.one")
+    'receiver_email': os.getenv("EMAIL_RECEIVER", "reciever_email@gmail.com")
+
 }
