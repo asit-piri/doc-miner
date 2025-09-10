@@ -1,16 +1,31 @@
-# Doc-Miner
+# Doc-Miner - Intelligent Document Assistant
 
-This project provides a Streamlit-based chatbot for uploading, processing, and querying multimodal documents. It integrates **ChromaDB** for vector storage, **OpenAI/Euri APIs** for embeddings and LLM responses, and optional **AWS S3** and **emailing features** for workflow automation.
-
-Doc Miner is an AI-powered intelligent document assistant that uses advanced natural language processing and document intelligence to help any document intensive professionals and patients interact with multimodal documents more efficiently.
+Doc Miner is an advanced AI-powered application designed to assist with multi-modal document analysis and intelligent chat interactions. It leverages large language models, document processing, and vector storage to provide insightful responses to user queries.
 
 ## Features
+
 - PDF document upload and processing
-- Intelligent document analysis using ChromaDB and OpenAI embeddings
-- Natural language querying of medical documents
-- S3 integration for document storage and retrieval
-- Email functionality for sending analysis reports and support tickets
-- Self-hosted LLM integration for enhanced privacy and customization
+- S3 integration for document storage
+- ChromaDB for efficient vector storage and retrieval
+- Intelligent chat interface powered by self-hosted language models
+- Medical analytics and insights generation
+- Email reporting functionality
+- Support ticket creation
+
+## Technologies Used
+
+- Python 3.11
+- Streamlit for the web interface
+- OpenAI API for language model interactions
+- ChromaDB for vector storage
+- AWS S3 for document storage
+- Docker for containerization
+- Various Python libraries including langchain, sentence-transformers, and more
+
+## Setup and Installation
+
+1. Clone the repository
+2. Install dependencies:
 
 ---
 
@@ -139,6 +154,35 @@ python-dotenv
 See **requirements.txt** for exact pinned versions.
 
 ---
+
+
+## Deployment
+
+The application can be deployed using Docker. Use the provided `Dockerfile` and deployment scripts:
+
+- For Unix-based systems: `deploy_ecr.sh`
+- For Windows: `deploy_ecr.bat`
+
+These scripts build the Docker image and push it to Amazon ECR for deployment.
+
+## Usage
+
+1. Upload medical documents (PDFs) using the sidebar
+2. Process the documents to store them in S3 and create vector embeddings
+3. Use the chat interface to ask questions about the medical documents
+4. Utilize additional features like email reporting and support ticket creation
+
+## Contributing
+
+Contributions to MediChat Pro are welcome. Please ensure to follow the coding standards and submit pull requests for any new features or bug fixes.
+
+## License
+
+[Specify your license here]
+
+## Support
+
+For any issues or questions, please create a support ticket using the in-app feature or contact the development team.
 
 ## Notes
 
