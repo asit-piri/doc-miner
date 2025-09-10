@@ -780,7 +780,7 @@ if prompt := st.chat_input("Ask about your medical documents or use commands lik
                                 chat_history=st.session_state.messages[-10:]  # Last 10 messages
                             )
                             if success:
-                                st.success("Support ticket created and sent to sudhanshu@euron.one!")
+                                st.success("Support ticket created and sent")
                             else:
                                 st.error("Failed to create support ticket")
                 
