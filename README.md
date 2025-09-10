@@ -1,4 +1,4 @@
-# Medical Document Chatbot
+# Doc-Miner
 
 This project provides a Streamlit-based chatbot for uploading, processing, and querying medical documents. It integrates **ChromaDB** for vector storage, **OpenAI/Euri APIs** for embeddings and LLM responses, and optional **AWS S3** and **emailing features** for workflow automation.
 
@@ -56,9 +56,9 @@ Doc-Miner/
 ---
 ## Usage
 Run the app:
-'''
+```
 streamlit run app.py
-'''
+```
 ### In the app:
 
 - Upload PDF medical documents → they are parsed and added to ChromaDB.
@@ -80,36 +80,36 @@ streamlit run app.py
 ---
 
 ## Requirements
-'''
+```
 Key libraries:
-'''
-'''
+```
+```
 streamlit
-'''
-'''
+```
+```
 pypdf
-'''
-'''
+```
+```
 chromadb
-'''
-'''
+```
+```
 langchain
-'''
-'''
+```
+```
 sentence-transformers
-'''
-'''
+```
+```
 boto3
-'''
-'''
+```
+```
 openai
-'''
-'''
+```
+```
 fpdf2
-'''
-'''
+```
+```
 python-dotenv
-'''
+```
 See requirements.txt for exact pinned versions.
 
 ---
