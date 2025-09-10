@@ -17,8 +17,8 @@ import time
 
 
 st.set_page_config(
-    page_title="MediChat Pro - Medical Document Assistant",
-    page_icon="🏥",
+    page_title="Doc Miner - Intelligence Document Assistant",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
