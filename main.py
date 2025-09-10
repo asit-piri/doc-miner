@@ -114,8 +114,8 @@ if st.session_state.vectorstore is None and st.session_state.chat_model is None:
     
 st.markdown("""
 <div style="text-align: center; padding: 2rem 0;">
-    <h1 style="color: #ff4b4b; font-size: 3rem; margin-bottom: 0.5rem;">MediChat Pro</h1>
-    <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Your Intelligent Medical Document Assistant</p>
+    <h1 style="color: #ff4b4b; font-size: 3rem; margin-bottom: 0.5rem;">Doc Miner</h1>
+    <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Your Intelligent Document Assistant</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -800,6 +800,6 @@ if prompt := st.chat_input("Ask about your medical documents or use commands lik
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem;">
-    <p>🤖 Powered by Euri AI & LangChain | 🏥 Medical Document Intelligence</p>
+    <p>🤖 Powered by Generative AI & Large Language Model |  Intelligence Document Assistance</p>
 </div>
 """, unsafe_allow_html=True)    
