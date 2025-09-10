@@ -1,0 +1,13 @@
+streamlit
+fpdf2
+pypdf
+langchain
+langchain_community
+sentence-transformers
+email-validator
+openai
+numpy
+chromadb
+boto3
+requests
+python-dotenv
