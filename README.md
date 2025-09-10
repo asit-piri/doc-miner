@@ -1,12 +1,38 @@
 # Doc-Miner
 
-This project provides a Streamlit-based chatbot for uploading, processing, and querying medical documents. It integrates **ChromaDB** for vector storage, **OpenAI/Euri APIs** for embeddings and LLM responses, and optional **AWS S3** and **emailing features** for workflow automation.
+This project provides a Streamlit-based chatbot for uploading, processing, and querying multimodal documents. It integrates **ChromaDB** for vector storage, **OpenAI/Euri APIs** for embeddings and LLM responses, and optional **AWS S3** and **emailing features** for workflow automation.
+
+Doc Miner is an AI-powered intelligent document assistant that uses advanced natural language processing and document intelligence to help any document intensive professionals and patients interact with multimodal documents more efficiently.
+
+## Features
+- PDF document upload and processing
+- Intelligent document analysis using ChromaDB and OpenAI embeddings
+- Natural language querying of medical documents
+- S3 integration for document storage and retrieval
+- Email functionality for sending analysis reports and support tickets
+- Self-hosted LLM integration for enhanced privacy and customization
+
+---
+
+## Usage
+- Upload documents through the Streamlit interface.
+- Ask questions about the uploaded documents using natural language.
+- Receive AI-generated responses based on the document content.
+- Send analysis reports or create support tickets as needed.
+
+## Deployment
+
+The project includes deployment scripts for AWS ECR and App Runner:
+
+- For Unix-based systems: deploy_ecr.sh
+- For Windows: deploy_ecr.bat
+- Follow the instructions in these scripts to deploy the application to AWS.
 
 ---
 
 ## Overview
 
-The Medical Document Chatbot allows researchers, doctors, and students to:
+The Doc Miner Chatbot allows researchers, layers, doctors, government agencies and students to:
 - Upload and parse medical PDFs
 - Store embeddings in **ChromaDB**
 - Chat with an AI assistant using document context
