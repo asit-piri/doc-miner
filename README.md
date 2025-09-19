@@ -7,8 +7,8 @@ Doc Miner is an advanced AI-powered application designed to assist with multi-mo
 - PDF document upload and processing
 - S3 integration for document storage
 - ChromaDB for efficient vector storage and retrieval
-- Intelligent chat interface powered by self-hosted language models
-- Medical analytics and insights generation
+- Intelligent chat interface powered by self-hosted language models in cloud
+- Document Analytics and Insights generation
 - Email reporting functionality
 - Support ticket creation
 
