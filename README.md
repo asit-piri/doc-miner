@@ -167,14 +167,14 @@ These scripts build the Docker image and push it to Amazon ECR for deployment.
 
 ## Usage
 
-1. Upload medical documents (PDFs) using the sidebar
+1. Upload documents (PDFs) using the sidebar
 2. Process the documents to store them in S3 and create vector embeddings
 3. Use the chat interface to ask questions about the medical documents
 4. Utilize additional features like email reporting and support ticket creation
 
 ## Contributing
 
-Contributions to MediChat Pro are welcome. Please ensure to follow the coding standards and submit pull requests for any new features or bug fixes.
+Contributions to document miner are welcome. Please ensure to follow the coding standards and submit pull requests for any new features or bug fixes.
 
 ## License
 
